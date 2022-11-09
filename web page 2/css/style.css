@@ -7,6 +7,30 @@
 h1,h2,h3,h4{
 	color:#0f394c;
 }
+@media (min-width:320px){
+    .nav-i{
+		display:flex;
+	}
+	.header-nav{
+		display:none;
+	}
+}
+@media (min-width:600px){
+    .nav-i{
+		display:flex;
+	}
+	.header-nav{
+		display:none;
+	}
+}
+@media (min-width:1025px){
+    .nav-i{
+		display:none;
+	}
+	.header-nav{
+		display:flex;
+	}
+}
 .header{
 	display:flex;
 	justify-content:space-around;
